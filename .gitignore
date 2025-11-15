@@ -1,1 +1,8 @@
+*.pdf
+*.exe
+*.mp4
+
+/fontawesome
+/bootstrap
 /venv
+/__pycache__
