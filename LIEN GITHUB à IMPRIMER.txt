@@ -1,0 +1,7 @@
+Exemple 5 consernant une INFOBULLE qui a été créée en JQUERY EasyUI et HTML :
+
+https://github.com/Mariogit20/INFOBULLE-en-JQUERY.git
+
+Exemple 6 FREE TEMPLATE BACKEND :
+
+https://github.com/Mariogit20/FREE_TEMPLATE_1.git
