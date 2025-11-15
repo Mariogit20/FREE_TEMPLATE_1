@@ -1,0 +1,192 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github8/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8 (master)
+$ git clone https://github.com/Mariogit20/FREE_TEMPLATE_1.git
+Cloning into 'FREE_TEMPLATE_1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8 (master)
+$ cd FREE_TEMPLATE_1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (main)
+$ git branch Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (main)
+$ git checkout Test
+Switched to branch 'Test'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Test)
+$ git push --set-upstream origin Test
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/FREE_TEMPLATE_1/pull/new/Test
+remote:
+To https://github.com/Mariogit20/FREE_TEMPLATE_1.git
+ * [new branch]      Test -> Test
+branch 'Test' set up to track 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Test)
+$ git branch Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Test)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git push --set-upstream origin Dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Dev' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/FREE_TEMPLATE_1/pull/new/Dev
+remote:
+To https://github.com/Mariogit20/FREE_TEMPLATE_1.git
+ * [new branch]      Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git commit -m "Ajout gitignore"
+[Dev 0c2c2be] Ajout gitignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ $ git config --global http.postBuffer 2048576000
+bash: $: command not found
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 145.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/FREE_TEMPLATE_1.git
+   b26addb..0c2c2be  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git commit -m "Modification gitignore"
+[Dev 124c5e6] Modification gitignore
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/FREE_TEMPLATE_1.git
+   0c2c2be..124c5e6  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git commit -m "first commit"
+[Dev 9ec033e] first commit
+ 55 files changed, 2103 insertions(+)
+ create mode 100644 Edukate Free Website Template - Free-CSS.com.zip
+ create mode 100644 Makaan Free Website Template - Free-CSS.com.zip
+ create mode 100644 Travel-Tour-Booking-Website-Free-PSD.zip
+ create mode 100644 carvilla.zip
+ create mode 100644 clip-path polygon 2/clip-path polygon CHATGPT.txt
+ create mode 100644 clip-path polygon 2/clip-path.txt
+ create mode 100644 clip-path polygon/CSS Clip-Path Generator.txt
+ create mode 100644 clip-path polygon/CSS Clip-Path.url
+ create mode 100644 clip-path polygon/ChatGPT     clip-path    IMAGE DE FOND.doc
+x
+ create mode 100644 clip-path polygon/ChatGPT    EXEMPLE    clip-path.docx
+ create mode 100644 clip-path polygon/ChatGPT   IMAGE RESPONSIVIVE     TAILLE
+ IMG.docx
+ create mode 100644 clip-path polygon/IMAGES pas de PIXELS.txt
+ create mode 100644 clip-path polygon/Nouveau document texte.txt
+ create mode 100644 clip-path polygon/clip-path polygon BEVEL.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CHATGPT.txt
+ create mode 100644 clip-path polygon/clip-path polygon CIRCLE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CLOSE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CROSS.JPG
+ create mode 100644 clip-path polygon/clip-path polygon DECAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon ELLIPSE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon FRAME.JPG
+ create mode 100644 clip-path polygon/clip-path polygon HEPTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon HEXAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon INSET.JPG
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT IMAGE 2.html
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT IMAGE.html
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT TRIANGLE.html
+ create mode 100644 clip-path polygon/clip-path polygon LEFT ARROW.JPG
+ create mode 100644 clip-path polygon/clip-path polygon LEFT CHEVR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon LEFT POINT.JPG
+ create mode 100644 clip-path polygon/clip-path polygon MESSAGE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon NONAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon OCTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon PARALLELOGRAM.JPG
+ create mode 100644 clip-path polygon/clip-path polygon PENTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RABBET.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RHOMBUS.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT ARROW.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT CHEVR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT POINT.JPG
+ create mode 100644 clip-path polygon/clip-path polygon STAR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 2.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 3.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 4.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 2.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 3.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 4.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 5.html
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 7a.html
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE.jpg
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE.txt
+ create mode 100644 clip-path polygon/clip-path.txt
+ create mode 100644 jobentry COURS Tanjona.zip
+ create mode 100644 jobentry.zip
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ git push
+Enumerating objects: 56, done.
+Counting objects: 100% (56/56), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (55/55), 69.55 MiB | 22.88 MiB/s, done.
+Total 55 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File Travel-Tour-Booking-Website-Free-PSD.zip is 62.70 MB; this
+ is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File
+ Storage - https://git-lfs.github.com.
+To https://github.com/Mariogit20/FREE_TEMPLATE_1.git
+   124c5e6..9ec033e  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github8/FREE_TEMPLATE_1 (Dev)
+$
